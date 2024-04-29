@@ -201,7 +201,8 @@
   .btn:is(:hover, :focus)::before { width: 100%; }
   
   .w-100 { width: 100%; }
-  
+  .w-50 { width: 50%; }
+
   .section-subtitle {
     color: var(--orange-soda);
     font-size: var(--fs-5);
@@ -1644,3 +1645,65 @@
     height: 100%;
     width: 100%;
     }
+
+
+/*Donasi*/
+.donasi {
+  background: var(--cultured-2);
+  padding-block: var(--section-padding);
+  display: flex;
+}
+
+.donasi-content { 
+  flex: 1;
+  margin-left: 60px; 
+  margin-left: 20px; 
+}
+
+.donasi-subtitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.donasi-subtitle ion-icon { color: var(--orange-soda); }
+
+.donasi-subtitle span {
+  color: var(--dark-jungle-green);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-700);
+}
+
+.donasi-title { margin-bottom: 20px; }
+
+.donasi-text {
+  font-size: var(--fs-5);
+  line-height: 1.8;
+  padding-left: 15px;
+  border-left: 1px solid;
+  margin-bottom: 30px;
+}
+
+.donasi-content { max-width: 400px; }
+
+.donasi-content {
+  max-width: unset;
+  margin-bottom: 0;
+}
+
+.donasi .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.qris-container {
+  display: flex;
+  align-items: center;
+}
+
+.qris-image {
+  max-width: 100%;
+}
