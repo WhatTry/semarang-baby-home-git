@@ -205,7 +205,14 @@
     height: 250px;
     
   }
-  .w-50 { width: 20%; }
+  .w-50 { 
+    margin-left: 30px;
+    height: 180px;
+  }
+
+  .w-25 {
+    width: 100%;
+  }
 
   .section-subtitle {
     color: var(--orange-soda);
@@ -1710,4 +1717,9 @@
 
 .qris-image {
   max-width: 100%;
+}
+
+.gallery-button{
+  text-align: end;
+  text-emphasis-color: inherit;
 }
